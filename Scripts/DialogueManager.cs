@@ -4,21 +4,24 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class DialogueManager : MonoBehaviour
-{
+public class DialogueManager : MonoBehaviour {
     
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
 
     public Animator animator;
 
+    public AudioClip[] clips;
+
 
     private Queue<string> sentences;
     private Dialogue thisDialogue;
+    private AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start() {
         sentences = new Queue<string>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void StartDialogue (Dialogue dialogue) {
@@ -48,9 +51,22 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator TypeSentence (string sentence) {
         dialogueText.text = "";
+        int delay = 0;
         foreach (char letter in sentence.ToCharArray()) {
+            if (letter != ' ' && delay <= 0) {
+                if (string.Equals(nameText.text, "Courier")) {
+                    delay = 5;
+                } else {
+                    delay = 8;
+                }
+                playVoiceSound();
+            }
             dialogueText.text += letter;
-            yield return null;
+            for (int i = 0; i <= 5; i++) {
+                yield return null;
+            }
+
+            delay--;
         }
     }
 
@@ -67,4 +83,21 @@ public class DialogueManager : MonoBehaviour
         Debug.Log("End of conversation.");
         animator.SetBool("isOpen", false);
     }
+
+    public void playVoiceSound() {
+        int randomNum = 0;
+        if (string.Equals(nameText.text, "Courier")) {
+           randomNum = Random.Range(0, 3);
+        }
+        else if (string.Equals(nameText.text, "Ghost")) {
+           randomNum = Random.Range(3, 6);
+        }
+         else if (string.Equals(nameText.text, "Vox2")) {
+           randomNum = Random.Range(6, 9);
+        }
+
+        audioSource.clip = clips[randomNum];
+        audioSource.Play();
+    }
+
 }
