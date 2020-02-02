@@ -45,7 +45,7 @@ My love, things here have taken a turn for the worse the disease has escaped the
 
 Post-Battle
 
-//Trapped in Grief
+	Trapped in Grief
 
 GHOST: I just… I can’t leave. She said she’ll come back.
 
@@ -58,7 +58,7 @@ PLAYER: I’m afraid there’s nothing more I can do for you…
 PLAYER leaves the ghost with their grief. 
 
 
-//Going into Acceptance
+	Going into Acceptance
 
 GHOST: Can you help me? I want to see her again. 
 
