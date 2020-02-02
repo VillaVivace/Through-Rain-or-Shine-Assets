@@ -4,21 +4,24 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class DialogueManager : MonoBehaviour
-{
+public class DialogueManager : MonoBehaviour {
     
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
 
     public Animator animator;
 
+    public AudioClip[] clips;
+
 
     private Queue<string> sentences;
     private Dialogue thisDialogue;
+    private AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start() {
         sentences = new Queue<string>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void StartDialogue (Dialogue dialogue) {
@@ -49,8 +52,14 @@ public class DialogueManager : MonoBehaviour
     IEnumerator TypeSentence (string sentence) {
         dialogueText.text = "";
         foreach (char letter in sentence.ToCharArray()) {
+            if (letter != ' ') {
+                playVoiceSound();
+            }
             dialogueText.text += letter;
-            yield return null;
+            for (int i = 0; i <= 25; i++) {
+                yield return null;
+            }
+            
         }
     }
 
@@ -67,4 +76,18 @@ public class DialogueManager : MonoBehaviour
         Debug.Log("End of conversation.");
         animator.SetBool("isOpen", false);
     }
+
+    public void playVoiceSound() {
+        int randomNum = 0;
+        if (string.Equals(nameText.text, "Courier")) {
+           randomNum = Random.Range(0, 2);
+        }
+        else if (string.Equals(nameText.text, "Ghost")) {
+           randomNum = Random.Range(3, 5);
+        }
+        
+        audioSource.clip = clips[randomNum];
+        audioSource.Play();
+    }
+
 }
