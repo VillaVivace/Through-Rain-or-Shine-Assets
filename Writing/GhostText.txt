@@ -1,0 +1,131 @@
+Overview
+The story of a tragic romance where a spouse in a married couple waits for their loved one to return from going to aid people very soon after the outbreak. The spouse ended up waiting until their death for their loved one, their spirit now stuck wandering the street still waiting for their loved one to return.
+
+Pre-Battle
+Enter PLAYER to street area of ghost.
+
+GHOST: Hey! Have you seen my wife?
+
+PLAYER: I’m afraid that-
+
+GHOST: You have seen her! How is she? Where is she?
+
+PLAYER: I regret to inform you that all I have are these letters for you.
+
+GHOST: Letters? From…
+
+PLAYER hands over the letters. Letters open
+up on the screen for the player to read.
+
+GHOST: Are these all? You must have more!
+
+PLAYER: I’m afraid this all the mail for you. I don’t think she’s coming back...
+
+GHOST: She’ll be back eventually I’ve been waiting for so long. I know she’ll come back eventually. 
+
+PLAYER: Her time has passed, it is your time to move forward. Let me help you.
+
+GHOST: No! I can’t! I have to wait for when she comes back.
+
+Battle scene begins.
+ 
+Letter
+Dear Alex,
+My love I miss you so much the outbreak is quite severe I’ll probably be awhile before I can return. I’m doing my best to help and save these people but they are quite sick. The disease front is demanding but I’m going to heal this world. I think of you everyday and I hope to see you soon.
+Love,
+Your Darling
+Sasha 
+
+Pt 2.
+Dear Alex,
+My love, things here have taken a turn for the worse the disease has escaped the quarantined areas. Everyone is getting sick and the doctors don’t have any idea as to what this is or how to cure it. I’ve heard that cases have been appearing worldwide and many people are dying. The situation has become dire and things have become complicated. I have started feeling weak and have been feeling feverish. If you receive this letter, know that I love you so much, thank you for giving me a wonderful life. I’m sorry that I couldn’t be with you in these hard times I----.
+
+
+
+
+Post-Battle
+
+//Trapped in Grief
+
+GHOST: I just… I can’t leave. She said she’ll come back.
+
+PLAYER: There was nobody left in the quarantine area. I’m sorry.
+
+GHOST: You’re wrong! I know she’ll come back! Just you wait and see!
+
+PLAYER: I’m afraid there’s nothing more I can do for you… 
+
+PLAYER leaves the ghost with their grief. 
+
+
+//Going into Acceptance
+
+GHOST: Can you help me? I want to see her again. 
+
+PLAYER: I can offer you the wisdom but you are the only one that can help yourself.
+
+GHOST: How do I do that?
+
+PLAYER: Acceptance. Accept she’s that she is no longer here. Accept your time here is done as well. 
+
+GHOST: I understand. I think I’m ready.
+
+PLAYER: She’s waiting for you. I wish you well.
+
+GHOST: Thank you.
+
+GHOST fades and scene ends.
+
+
+Battle lines
+  Neutral Line Scenario : I don’t know what…
+
+Grieving: Where’d you get these, where is she? I have to go to her?
+1.I got the letters from a convoy doing recovery from dead towns… 
+2.I’m only delivering letters, I don’t know… 
+3.She’s not coming back I’m afraid.
+
+Grieving: She’ll be back. She said she would be back. She'll be back any moment if I just wait a little longer….
+1.She’s waiting for you, just not here… 
+2.She’s not coming back…
+3.Wake up and smell the ashes! She’s not here!
+
+Grieving: I can’t leave, what if she comes back and I’m not here?
+1.What if she’s waiting for you, someplace else?
+2.She will understand if she does… 
+3.Even if she was like you, she couldn’t leave her post either!
+
+Grieving: I’m nothing without her, she was everything to me!
+1.She would want you to move forward, even if it wasn’t with her.
+2.You are your own person, she wouldn’t want you to define yourself by her.
+3.If you’re nothing without her, then what the fuck are you then?!
+
+Grieving: She wouldn’t leave me all alone. She wouldn't would she?
+1.I’m sure she did everything in her power to get to you.
+2.She wouldn’t, not on purpose, things were beyond her control.
+3.No, she would.
+
+Acceptance: I want to move on, I’m just not sure if I can or if I’m ready...
+1.You can move on, you just need to let yourself do so.
+2.I can’t force you to move on.
+3.I’m not sure you’re ready either.
+
+Acceptance: I should be strong, it's what she would have wanted.
+1.I’m sure that’s exactly what she would want.
+2.I know it’s difficult to be strong.
+3.Is it what she would’ve wanted?
+
+Acceptance: I just want to see her again, do you think I can?
+1.I’m sure you will.
+2.I’m not sure, what comes next is unknown to me.
+3.Nope, I don’t think so...
+
+Acceptance: Where am I supposed to go from here? 
+1.Forward. Your path is what lies in front of you.
+2.Wherever you want.
+3.Nowhere, there’s nothing left.
+
+Acceptance: I hope she helped those people as much as she helped me.
+1.Don’t let that help be in vain, move towards a better place.
+2.I’m sure she helped everyone she could.
+3.Yeah she did a lot more that you ever did.
