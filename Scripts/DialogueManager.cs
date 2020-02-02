@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour {
     
@@ -54,7 +55,7 @@ public class DialogueManager : MonoBehaviour {
         int delay = 0;
         foreach (char letter in sentence.ToCharArray()) {
             if (letter != ' ' && delay <= 0) {
-                if (string.Equals(nameText.text, "Courier")) {
+                if (string.Equals(nameText.text, "You")) {
                     delay = 5;
                 } else {
                     delay = 8;
@@ -82,6 +83,7 @@ public class DialogueManager : MonoBehaviour {
     void EndDialogue() {
         Debug.Log("End of conversation.");
         animator.SetBool("isOpen", false);
+        SceneManager.LoadScene(2);
     }
 
     public void playVoiceSound() {

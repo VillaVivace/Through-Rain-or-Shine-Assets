@@ -438,7 +438,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 803870216}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -46.8, y: 12.4, z: -10}
+  m_LocalPosition: {x: -44.380672, y: -6.9953337, z: -215.52625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1246241259}
@@ -1153,7 +1153,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1496281992}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -32.782223, y: 12.400008, z: -10}
+  m_LocalPosition: {x: -32.782204, y: -6.995324, z: -215.52625}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1900,8 +1900,8 @@ MonoBehaviour:
     - You have seen her! How is she? Where is she?
     - I regret to inform you that all I have are these letters for you.
     - "Letters? From\u2026\n\nAre these all? You must have more!"
-    - "I\u2019m afraid this all the mail for you. I don\u2019t think she\u2019s coming
-      back..."
+    - "I\u2019m afraid this is all the mail I have for you. I don\u2019t think she\u2019s
+      coming back..."
     - "She\u2019ll be back eventually I\u2019ve been waiting for so long. I know
       she\u2019ll come back eventually."
     - Her time has passed, it is your time to move forward. Let me help you.
@@ -1919,6 +1919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dt: {fileID: 0}
+  player: {fileID: 2082205268}
 --- !u!61 &2031993408
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1990,6 +1991,7 @@ GameObject:
   - component: {fileID: 2082205270}
   - component: {fileID: 2082205269}
   - component: {fileID: 2082205268}
+  - component: {fileID: 2082205273}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2012,6 +2014,7 @@ MonoBehaviour:
   moveSpeed: 14
   rb: {fileID: 2082205269}
   state: normal
+  playerAnim: {fileID: 2082205273}
 --- !u!50 &2082205269
 Rigidbody2D:
   serializedVersion: 4
@@ -2046,8 +2049,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.6178489}
-  m_Size: {x: 4.13, y: 6.0343027}
+  m_Offset: {x: 0, y: -1.2252254}
+  m_Size: {x: 4.13, y: 10.650375}
   m_Direction: 0
 --- !u!212 &2082205271
 SpriteRenderer:
@@ -2088,8 +2091,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: bbb856aae4cdf9f41ac45fb05ec74dbd, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: a3a669bdc9341ae458bf150e99949988, type: 3}
+  m_Color: {r: 0.5660378, g: 0.5553578, b: 0.5553578, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2106,13 +2109,32 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082205267}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.919327, y: 1.095334, z: 205.52625}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -35.5, y: -18.3, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 2032876541}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2082205273
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082205267}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 66c5a37a7d376804cae08d75eb3f5dde, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2119374796
 GameObject:
   m_ObjectHideFlags: 0

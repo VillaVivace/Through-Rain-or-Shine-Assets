@@ -5,6 +5,7 @@ using UnityEngine;
 public class GhostConvo : MonoBehaviour
 {
     public DialogueTrigger dt;
+    public PlayerMovement player;
 
     void Start() {
         dt = GetComponent<DialogueTrigger>();
